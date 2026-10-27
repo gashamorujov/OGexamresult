@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "examRecords": {
+      ".read": true,
+      ".write": true,
+      "$recordId": {
+        ".validate": "newData.hasChildren(['id', 'subject', 'fullName', 'uploadDate'])"
+      }
+    }
+  }
+}

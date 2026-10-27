@@ -1,0 +1,12 @@
+{
+  "name": "imtahan-reyestri",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "İmtahan nəticələri PDF və ZIP fayllarından avtomatik oxunur, reyestrdə saxlanılır və axtarılır.",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/parser.test.mjs"
+  }
+}
